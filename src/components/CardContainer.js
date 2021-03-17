@@ -34,7 +34,7 @@ function CardContainer(props) {
               var value = array[i];
               if (value in valuesSoFar) {
                 console.log('true')
-                props.setCount(0)
+                props.setCount(-1)
                 console.log(props.count)
                 setSelectedPictures([])
                   return true;
